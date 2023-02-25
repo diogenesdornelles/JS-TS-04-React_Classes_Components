@@ -8,6 +8,7 @@ export default function scrollReveal (observed, toggled, margin) {
     rootMargin: margin
   })
   const items = document.querySelectorAll(observed)
+  console.log(items)
   if (items.length > 0) {
     items.forEach((element) => observer.observe(element))
   }

@@ -1,0 +1,3 @@
+gerar editor config
+npm i eslint babel-eslint -D
+npx eslint --init

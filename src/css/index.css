@@ -17,7 +17,7 @@ code {
 }
 
 #bg-services {
-  background-image: url(./images/servicos/84.jpg);
+  background-image: url(../images/servicos/84.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,7 +33,7 @@ code {
   backdrop-filter: brightness(30%);
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .observed {
     opacity: 0;
     transition: all .6s ease-in-out;
@@ -51,5 +51,5 @@ code {
   .observed.show {
     opacity: 1;
   }
-}
+} */
 
